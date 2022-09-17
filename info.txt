@@ -1,0 +1,26 @@
+DOM :- Stands for document object model. When a page is loaded, browser creates a DOM of the page           which is constructed as tree of object.
+
+HTML id acts as a unique identifier for that element.
+
+There are 3 ways to add CSS :- Inline css will override external & internal.
+ i) <style> tag :- Adding <style>...</style> to HTML page
+ ii) Inline css :- Adding css using style attribute
+ iii) External css :- Adding a styleSheet(.css file) to HTML using <link> tag
+
+ cssSelector :-
+  i)element selector :- 
+        h1{
+            color: red;
+        }
+ ii) id selector :-
+        #first{
+            background-color: red;
+            color: white;
+        }
+ iii) class selector :- 
+        .bg-blue{
+            background-color: rosybrown;
+            color: white;
+        }
+
+    
